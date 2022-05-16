@@ -2,8 +2,7 @@
 
 // 构造函数属性
 
-class User {
-
+class UserExample {
     public function __construct(
         private string $name,
         private int $age
@@ -15,5 +14,5 @@ class User {
     }
 }
 
-$person = new User(name: 'Jetbrains', age: 18);
+$person = new UserExample(name: 'Jetbrains', age: 18);
 $person->print();
