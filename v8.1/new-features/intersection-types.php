@@ -1,6 +1,6 @@
 <?php
 
-// 交集类型（Intersection Types），正好与联合类型(Union Types)相反
+// 交叉类型（Intersection Types），正好与联合类型(Union Types)相反
 
 function count_and_iterate(Iterator&Countable $value): void {
     foreach ($value as $val) {
